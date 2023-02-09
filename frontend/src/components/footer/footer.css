@@ -1,0 +1,23 @@
+
+footer {
+    background-color: rgb(58, 58, 58);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .footer-title{
+      font-size: 1.6rem;
+      cursor: pointer;
+      color: rgb(223, 88, 88);
+  }
+  .footer-icon{
+    padding: 0 12px;
+    font-size: 25px;
+  }
+  

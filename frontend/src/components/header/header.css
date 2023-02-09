@@ -1,0 +1,44 @@
+header {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.infor-edit {
+  cursor: pointer;
+  align-self: flex-end;
+  border: 2px solid white;
+  margin: 1rem 1.15rem 0 0;
+  padding: 0.45rem;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.infor-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 2rem;
+  color: white;
+}
+.infor-username {
+  width: 50%;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.infor-age,
+.infor-about {
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.infor-ava {
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  overflow: hidden;
+}
